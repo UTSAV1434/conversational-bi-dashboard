@@ -1,0 +1,71 @@
+Date,Region,Product_Category,Product,Units_Sold,Unit_Price,Revenue,Cost,Profit
+2024-01-05,North,Electronics,Laptop,45,899.99,40499.55,28349.69,12149.87
+2024-01-12,South,Electronics,Smartphone,120,649.99,77998.80,50699.22,27299.58
+2024-01-18,East,Clothing,Winter Jacket,200,89.99,17998.00,10798.80,7199.20
+2024-01-25,West,Food &amp; Beverage,Organic Coffee,500,12.99,6495.00,3247.50,3247.50
+2024-01-30,Central,Electronics,Tablet,80,449.99,35999.20,23399.48,12599.72
+2024-02-03,North,Clothing,Running Shoes,150,129.99,19498.50,11699.10,7799.40
+2024-02-10,South,Food &amp; Beverage,Energy Drink,800,3.49,2792.00,1396.00,1396.00
+2024-02-15,East,Electronics,Headphones,300,79.99,23997.00,14398.20,9598.80
+2024-02-22,West,Clothing,Denim Jeans,180,59.99,10798.20,6478.92,4319.28
+2024-02-28,Central,Food &amp; Beverage,Protein Bar,1000,2.99,2990.00,1495.00,1495.00
+2024-03-05,North,Electronics,Smart Watch,95,299.99,28499.05,18524.38,9974.67
+2024-03-12,South,Clothing,Polo Shirt,250,34.99,8747.50,4373.75,4373.75
+2024-03-18,East,Food &amp; Beverage,Green Tea,600,8.99,5394.00,2697.00,2697.00
+2024-03-25,West,Electronics,Wireless Mouse,400,24.99,9996.00,5997.60,3998.40
+2024-03-30,Central,Clothing,Sports Cap,350,14.99,5246.50,2623.25,2623.25
+2024-04-04,North,Food &amp; Beverage,Almond Milk,450,5.49,2470.50,1235.25,1235.25
+2024-04-11,South,Electronics,Camera,35,1199.99,41999.65,29399.76,12599.90
+2024-04-17,East,Clothing,Yoga Pants,220,44.99,9897.80,5938.68,3959.12
+2024-04-24,West,Food &amp; Beverage,Sparkling Water,900,1.99,1791.00,895.50,895.50
+2024-04-30,Central,Electronics,USB Drive,500,9.99,4995.00,2497.50,2497.50
+2024-05-06,North,Clothing,Leather Belt,175,29.99,5248.25,3148.95,2099.30
+2024-05-13,South,Food &amp; Beverage,Granola,350,6.99,2446.50,1223.25,1223.25
+2024-05-19,East,Electronics,Bluetooth Speaker,160,49.99,7998.40,4799.04,3199.36
+2024-05-26,West,Clothing,Sunglasses,300,19.99,5997.00,3598.20,2398.80
+2024-05-31,Central,Food &amp; Beverage,Kombucha,400,4.49,1796.00,898.00,898.00
+2024-06-05,North,Electronics,Monitor,60,349.99,20999.40,14699.58,6299.82
+2024-06-12,South,Clothing,Swim Shorts,280,24.99,6997.20,4198.32,2798.88
+2024-06-18,East,Food &amp; Beverage,Coconut Water,700,3.29,2303.00,1151.50,1151.50
+2024-06-25,West,Electronics,Keyboard,200,69.99,13998.00,8398.80,5599.20
+2024-06-30,Central,Clothing,Tank Top,320,17.99,5756.80,3454.08,2302.72
+2024-07-04,North,Food &amp; Beverage,Cold Brew,550,4.99,2744.50,1372.25,1372.25
+2024-07-11,South,Electronics,Gaming Mouse,180,59.99,10798.20,7558.74,3239.46
+2024-07-17,East,Clothing,Hiking Boots,100,119.99,11999.00,7799.35,4199.65
+2024-07-24,West,Food &amp; Beverage,Trail Mix,650,7.99,5193.50,2596.75,2596.75
+2024-07-30,Central,Electronics,Power Bank,250,29.99,7497.50,4498.50,2999.00
+2024-08-05,North,Clothing,Rain Jacket,130,79.99,10398.70,6759.16,3639.55
+2024-08-12,South,Food &amp; Beverage,Smoothie Mix,400,9.99,3996.00,1998.00,1998.00
+2024-08-18,East,Electronics,Webcam,150,44.99,6748.50,4049.10,2699.40
+2024-08-25,West,Clothing,Baseball Cap,450,12.99,5845.50,3507.30,2338.20
+2024-08-31,Central,Food &amp; Beverage,Protein Shake,380,3.99,1516.20,758.10,758.10
+2024-09-05,North,Electronics,Router,75,89.99,6749.25,4724.48,2024.78
+2024-09-12,South,Clothing,Fleece Hoodie,200,49.99,9998.00,5998.80,3999.20
+2024-09-18,East,Food &amp; Beverage,Matcha Powder,280,14.99,4197.20,2098.60,2098.60
+2024-09-25,West,Electronics,External SSD,110,79.99,8798.90,5719.34,3079.57
+2024-09-30,Central,Clothing,Cargo Pants,170,39.99,6798.30,4078.98,2719.32
+2024-10-04,North,Food &amp; Beverage,Peanut Butter,500,6.49,3245.00,1622.50,1622.50
+2024-10-11,South,Electronics,Drone,25,599.99,14999.75,10499.83,4499.93
+2024-10-17,East,Clothing,Wool Scarf,240,22.99,5517.60,3310.56,2207.04
+2024-10-24,West,Food &amp; Beverage,Oat Milk,420,4.99,2095.80,1047.90,1047.90
+2024-10-31,Central,Electronics,Earbuds,300,39.99,11997.00,7198.20,4798.80
+2024-11-05,North,Clothing,Thermal Socks,400,9.99,3996.00,2397.60,1598.40
+2024-11-12,South,Food &amp; Beverage,Honey,320,11.99,3836.80,1918.40,1918.40
+2024-11-18,East,Electronics,Fitness Tracker,140,149.99,20998.60,13649.09,7349.51
+2024-11-25,West,Clothing,Down Vest,120,69.99,8398.80,5459.22,2939.58
+2024-11-30,Central,Food &amp; Beverage,Dried Fruit,500,5.99,2995.00,1497.50,1497.50
+2024-12-05,North,Electronics,Portable Charger,220,19.99,4397.80,2638.68,1759.12
+2024-12-12,South,Clothing,Cashmere Sweater,85,99.99,8499.15,5949.41,2549.75
+2024-12-18,East,Food &amp; Beverage,Hot Chocolate,600,3.99,2394.00,1197.00,1197.00
+2024-12-25,West,Electronics,VR Headset,40,399.99,15999.60,11199.72,4799.88
+2024-12-31,Central,Clothing,New Year Hat,500,7.99,3995.00,2397.00,1598.00
+2025-01-07,North,Electronics,Laptop,55,929.99,51149.45,35804.62,15344.84
+2025-01-14,South,Clothing,Winter Coat,160,109.99,17598.40,10559.04,7039.36
+2025-01-21,East,Food &amp; Beverage,Organic Juice,480,4.99,2395.20,1197.60,1197.60
+2025-01-28,West,Electronics,Smartphone,100,699.99,69999.00,48999.30,21000.00
+2025-02-04,Central,Clothing,Training Shoes,190,89.99,17098.10,10258.86,6839.24
+2025-02-11,North,Food &amp; Beverage,Whey Protein,300,24.99,7497.00,4498.20,2998.80
+2025-02-18,South,Electronics,Tablet,70,479.99,33599.30,21839.55,11759.76
+2025-02-25,East,Clothing,Graphic Tee,350,19.99,6996.50,4197.90,2798.60
+2025-03-04,West,Food &amp; Beverage,Avocado Oil,200,12.99,2598.00,1299.00,1299.00
+2025-03-11,Central,Electronics,Smart Speaker,120,99.99,11998.80,7799.22,4199.58

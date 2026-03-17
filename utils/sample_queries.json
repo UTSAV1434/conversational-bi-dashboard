@@ -1,0 +1,34 @@
+[
+  {
+    "label": "Revenue by Region",
+    "query": "Show total revenue by region"
+  },
+  {
+    "label": "Monthly Sales Trend",
+    "query": "Show monthly sales revenue trend over time"
+  },
+  {
+    "label": "Top Products",
+    "query": "What are the top 10 products by revenue?"
+  },
+  {
+    "label": "Profit by Category",
+    "query": "Compare profit across product categories"
+  },
+  {
+    "label": "Q3 Performance",
+    "query": "Show me the monthly sales revenue for Q3 2024"
+  },
+  {
+    "label": "Regional Breakdown",
+    "query": "Break down revenue by region and highlight the top-performing product category"
+  },
+  {
+    "label": "Profit Margins",
+    "query": "Compare profit margins across regions over the last 6 months and show the trend"
+  },
+  {
+    "label": "Units Sold Distribution",
+    "query": "Show distribution of units sold by product category"
+  }
+]
