@@ -1,6 +1,6 @@
 """
 LLM Engine - Translates natural language queries to pandas operations.
-Supports OpenRouter API (which provides access to Gemini, Claude, GPT, etc.)
+Uses OpenRouter API to access Gemini and other models.
 Dynamically adapts to whatever dataset is currently loaded.
 """
 
@@ -13,12 +13,12 @@ import os
 
 load_dotenv()
 
-API_KEY = os.getenv("OPENROUTER_API_KEY") or os.getenv("GEMINI_API_KEY")
+API_KEY = os.getenv("OPENROUTER_API_KEY")
 API_URL = "https://openrouter.ai/api/v1/chat/completions"
 MODEL = "google/gemini-2.0-flash-001"
 
 MAX_RETRIES = 3
-BASE_DELAY = 2
+BASE_DELAY = 3
 
 
 def build_system_prompt(schema_info: str, sample_rows: str) -> str:
@@ -86,7 +86,7 @@ def query_llm(user_query: str, schema_info: str, sample_rows: str) -> dict:
             if response.status_code == 429:
                 if attempt < MAX_RETRIES - 1:
                     delay = BASE_DELAY * (2 ** attempt)
-                    print(f"[LLM] Rate limited, retrying in {delay}s (attempt {attempt + 1}/{MAX_RETRIES})...")
+                    print(f"[LLM] Rate limited, retrying in {delay}s...")
                     time.sleep(delay)
                     continue
                 return {"error": "API rate limit exceeded. Please try again in a moment."}
@@ -117,13 +117,9 @@ def query_llm(user_query: str, schema_info: str, sample_rows: str) -> dict:
                 continue
         except Exception as e:
             last_error = str(e)
-            error_lower = last_error.lower()
-            if "quota" in error_lower or "rate" in error_lower or "429" in error_lower:
-                if attempt < MAX_RETRIES - 1:
-                    delay = BASE_DELAY * (2 ** attempt)
-                    print(f"[LLM] Rate limited, retrying in {delay}s...")
-                    time.sleep(delay)
-                    continue
+            if attempt < MAX_RETRIES - 1:
+                time.sleep(BASE_DELAY)
+                continue
             return {"error": f"LLM query failed: {last_error}"}
 
     return {"error": f"LLM query failed after {MAX_RETRIES} retries: {last_error}"}
